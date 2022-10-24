@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Add_reservatons = () => {
+function AddReservatons() {
   return <div>add_reservatons</div>;
-};
+}
 
-export default Add_reservatons;
+export default AddReservatons;

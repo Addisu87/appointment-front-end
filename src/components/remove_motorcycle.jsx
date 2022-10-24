@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Remove_motorcycle = () => {
-  return <div>remove_motorcycle</div>;
-};
+function RemoveMotorcycle() {
+  return <div>Remove Motorcycle</div>;
+}
 
-export default Remove_motorcycle;
+export default RemoveMotorcycle;

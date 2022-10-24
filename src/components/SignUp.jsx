@@ -1,7 +1,7 @@
-import React from 'react';
 import { Button, Checkbox, Label, TextInput } from 'flowbite-react';
+import React from 'react';
 
-function Login() {
+function SignUp() {
   return (
     <div className="container">
       <form className="flex flex-col gap-4">
@@ -18,13 +18,21 @@ function Login() {
           <TextInput id="password1" type="password" required />
         </div>
         <div className="flex items-center gap-2">
-          <Checkbox id="remember" />
-          <Label htmlFor="remember">Remember me</Label>
+          <Checkbox id="agree" />
+          <Label htmlFor="agree">
+            I agree with the{' '}
+            <a
+              href="/forms"
+              className="text-blue-600 hover:underline dark:text-blue-500"
+            >
+              terms and conditions
+            </a>
+          </Label>
         </div>
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Register new account</Button>
       </form>
     </div>
   );
 }
 
-export default Login;
+export default SignUp;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Motorcycle_details = () => {
+function MotorcycleDetails() {
   return <div>motorcycle_details</div>;
-};
+}
 
-export default Motorcycle_details;
+export default MotorcycleDetails;
