@@ -3,7 +3,7 @@ import React from 'react';
 
 function SignUp() {
   return (
-    <div className="container">
+    <div className="p-4 w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
       <form className="flex flex-col gap-4">
         <div>
           <div className="mb-2 block">
