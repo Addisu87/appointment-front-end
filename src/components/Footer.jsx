@@ -9,12 +9,12 @@ import {
 
 function Footer() {
   return (
-    <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-4 dark:bg-gray-800">
+    <footer className="flex flex-col items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
         <a href="https://github.com/Addisu87" className="hover:underline">
-          <FaMotorcycle />
+          <FaMotorcycle /> © 2022
         </a>
-        © 2022, All Rights Reserved.
+        All Rights Reserved.
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
